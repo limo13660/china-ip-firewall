@@ -1,0 +1,7 @@
+[Unit]
+Description=Update China IPSet List
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/update_china_ipset.sh

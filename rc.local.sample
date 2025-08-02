@@ -1,0 +1,4 @@
+#!/bin/bash
+ipset restore < /etc/china-ip-firewall/ipset-china.conf
+iptables-restore < /etc/china-ip-firewall/iptables.rules
+exit 0

@@ -1,0 +1,9 @@
+[Unit]
+Description=定时更新中国IP防火墙规则（每天一次）
+
+[Timer]
+OnCalendar=03:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
