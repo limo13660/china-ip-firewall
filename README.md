@@ -5,6 +5,4 @@
 ## 🚀 快速开始
 
 ```bash
-git clone https://github.com/limo13660/china-ip-firewall.git
-cd china-ip-firewall
-sudo bash setup.sh
+wget -O - https://raw.githubusercontent.com/limo13660/china-ip-firewall/main/setup.sh | sudo bash
