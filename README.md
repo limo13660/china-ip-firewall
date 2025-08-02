@@ -5,6 +5,6 @@
 ## 🚀 快速开始
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/china-ip-firewall.git
+git clone https://github.com/limo13660/china-ip-firewall.git
 cd china-ip-firewall
 sudo bash setup.sh
